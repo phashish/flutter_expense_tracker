@@ -24,27 +24,27 @@ class Expense {
 
 List<Expense> expenses = [
   Expense(
-    name: "Apple",
+    name: "Apple 1Kg",
     category: ExpenseCategory.food,
     amount: 10.0,
-    date: DateTime.now(),
+    date: DateTime.parse("2022-02-01 09:10:00.000"),
   ),
   Expense(
-    name: "Orange",
+    name: "Orange 2Kg",
     category: ExpenseCategory.food,
     amount: 20.0,
-    date: DateTime.now(),
+    date: DateTime.parse("2022-03-01 19:10:00.000"),
   ),
   Expense(
-    name: "Movie Tickets",
+    name: "Movie Tickets 2",
     category: ExpenseCategory.fun,
     amount: 15.0,
-    date: DateTime.now(),
+    date: DateTime.parse("2022-04-01 04:10:00.000"),
   ),
   Expense(
-    name: "Phone Bill",
+    name: "Phone Bill Wife",
     category: ExpenseCategory.bills,
     amount: 50.0,
-    date: DateTime.now(),
+    date: DateTime.parse("2022-01-01 05:10:00.000"),
   ),
 ];

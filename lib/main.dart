@@ -11,12 +11,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Expense Tracker App'),
-        ),
-        body: const ExpenseTrackerScreen(),
+      theme: ThemeData.from(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
       ),
+      home: const ExpenseTrackerScreen(),
     );
   }
 }
